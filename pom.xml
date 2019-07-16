@@ -78,11 +78,11 @@
         </dependency>
 
         <!-- When you add this dep, the JVM metrics don't seem to be collected anymore, they at least don't show up on http://localhost:8080/actuator/metrics -->
-<!--        <dependency>-->
-<!--            <groupId>org.axonframework</groupId>-->
-<!--            <artifactId>axon-micrometer</artifactId>-->
-<!--            <version>${axon.version}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.axonframework</groupId>
+            <artifactId>axon-micrometer</artifactId>
+            <version>${axon.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
